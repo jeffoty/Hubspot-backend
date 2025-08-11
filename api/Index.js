@@ -101,6 +101,4 @@ app.delete('/hubspot/:objectType/properties/:propertyName', async (req, res) => 
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`HubSpot-properties API listening on http://localhost:${PORT}`);
-});
+module.exports = app;
